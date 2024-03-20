@@ -37,7 +37,7 @@ class bankAccount:
             print("Usuario no encontrado.")
 
 
-    # METODOS PRIVAODS
+    
     @classmethod        
     def accountValidation(cls,accountNumber):
         if not cls.accountList:
